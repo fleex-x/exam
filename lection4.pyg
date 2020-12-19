@@ -1,0 +1,5 @@
+        unique_ptr(const unique_ptr &other) = delete;
+        unique_ptr(unique_ptr &&other) { /*realization*/ };
+        unique_ptr& operator=(const unique_ptr &other) = delete;
+        unique_ptr& operator=(unique_ptr &&other) = { /*realization*/ };
+        ~unique_ptr() { /*realization*/ }
